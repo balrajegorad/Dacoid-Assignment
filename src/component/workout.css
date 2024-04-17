@@ -1,0 +1,11 @@
+.toggle__line {
+    transition: background-color 0.3s ease;
+}
+
+#toggle:checked+.toggle__dot {
+    transform: translateX(100%);
+}
+
+#toggle:checked+.toggle__dot:before {
+    content: "";
+}

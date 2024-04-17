@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 100vh;
+    padding: 0;
+    margin: 0 auto;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+span{
+    color: rgba(147, 169, 255, 1);
+}
+
